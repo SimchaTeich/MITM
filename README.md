@@ -158,7 +158,7 @@ Simcha - [here](https://github.com/SimchaTeich)
 
 Project Link: [here](https://github.com/amirg00/Simple-Chat.git)
 
-Project book: [here](/MITM/task/323104562_324942077.pdf)
+Project book: [here](/task/323104562_324942077.pdf)
 ___
 
 ***Copyright*** © _This Project last modified on July 17, 2022, by [Simcha](https://github.com/SimchaTeich) & [Amir](https://github.com/amirg00/)_.
