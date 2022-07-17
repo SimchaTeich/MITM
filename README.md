@@ -122,8 +122,9 @@ The software will take this idea and implement it:
 
 And now we can surly say that the Bob's proposal is completely ruined.
 
-========================= picture =============================
-
+<p align="center">
+<img align="center" src="Resorces/pictures/9 - mitm.png" />
+</p>
 
 <a name="languages_and_tools"></a>
 ## Languages and Tools <small>[Top▲](#table_of_contents)</small>
