@@ -46,7 +46,9 @@ which have a common subnet.
 
 Here is a picture which depicts the net's scheme, with the real details.
 
-========================= picture =============================
+<p align="center">
+<img align="center" src="Resorces/pictures/1 - network details.png" />
+</p>
 
 It's needless to say who is Bob, because bob's messages will be sent to the server, 
 and only then from the server to Alice, but here we will have Bob and the server in
@@ -58,12 +60,16 @@ Let's present a normal chat over our chat application.
 - Bob joins the chat, and then Alice joins too.
 - Now they can chat.
 
-========================= picture =============================
+<p align="center">
+<img align="center" src="Resorces/pictures/2 - Alice&Bob_chat.png" />
+</p>
 
 Now to the attacking, Eve will apply ARP poisoning.
 She will poison the ARP cache of Alice and the server (Bob's machine).
 
-========================= picture =============================
+<p align="center">
+<img align="center" src="Resorces/pictures/3 - Alice ARP cash before the attack.png" />
+</p>
 
 - The blue address and the red address belongs to the attacker, which is only connected to the subnet.
 
@@ -72,7 +78,9 @@ This poisons Alice's and Bob's ARP cache.
 
 Here is a picture of the poisoning scheme.
 
-========================= picture =============================
+<p align="center">
+<img align="center" src="Resorces/pictures/4 - poisoning scheme.png" />
+</p>
 
 The next step for Eve is to run her script to poison Alice's and Bob's ARP cache.
 
