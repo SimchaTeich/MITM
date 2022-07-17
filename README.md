@@ -156,7 +156,7 @@ Amir - [here](https://github.com/amirg00/)
  
 Simcha - [here](https://github.com/SimchaTeich)
 
-Project Link: [here](https://github.com/amirg00/Simple-Chat.git)
+Project Link: [here](https://github.com/SimchaTeich/MITM.git)
 
 Project book: [here](/task/323104562_324942077.pdf)
 ___
