@@ -52,7 +52,7 @@ The attack explanation is based on a story that will be presented here.
 * [Draw.io](https://drawio-app.com/)
 
 <a name="contact"></a>
-## Contact <small>[Top▲](mitm_up)</small>
+## Contact <small>[Top▲](/)</small>
 
 
 Amir - [here](https://github.com/amirg00/)
