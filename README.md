@@ -92,6 +92,9 @@ The next step for Eve is to run her script to poison Alice's and Bob's ARP cache
 
 Let's see the poisoning in the background using Wireshark.
 
+<p align="center">
+<img align="center" src="Resorces/pictures/6 - Eve wireshark.png" />
+</p>
 ========================= picture =============================
 
 - The poisoning is made every 10 seconds, and we can see this traffic in the last picture.
