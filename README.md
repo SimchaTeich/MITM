@@ -1,21 +1,21 @@
-<!-- UP -->
+<a name="MITM"></a>
 # MITM - ARP POISONING
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Content</summary>
   <ol>
-    <li><a href="#Brief">Brief</a></li>
-    <li><a href="#Background Story">Background Story</a></li>
-    <li><a href="#Languages and Tools">Languages and Tools</a></li>
-    <li><a href="#Acknowledgements">Acknowledgements</a></li>
-    <li><a href="#Contact">Contact</a></li>
+    <li><a href="#brief">Brief</a></li>
+    <li><a href="#background_story">Background Story</a></li>
+    <li><a href="#languages_and_tools">Languages and Tools</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 ----------------
 
-<!-- Brief -->
+<a name="brief"></a>
 ## Brief
 A simple program which creates "Man In The Middle" attack by ARP spoofing using scapy.
 The program uses our simple chat final project [link of the project here](https://github.com/amirg00/Simple-Chat.git).
@@ -23,10 +23,11 @@ Since the simple chat applies a non-secured applicative protocol that we have cr
 the chats can be exposed by an attacker that wants to sabotage the users' chats.
 The attack explanation is based on a story that will be presented here.
 
-<!-- Background Story -->
+<a name="background_story"></a>
 ## Background Story
 ...
 
+<a name="languages_and_tools"></a>
 ## Languages and Tools
 
  <div align="center">
@@ -40,7 +41,7 @@ The attack explanation is based on a story that will be presented here.
  </div>
 
 
-<!-- ACKNOWLEDGEMENTS -->
+<a name="acknowledgements"></a>
 ## Acknowledgements
 * [Our Chat Project](https://github.com/amirg00/Simple-Chat.git)
 * [Python](https://www.python.org/)
@@ -50,8 +51,8 @@ The attack explanation is based on a story that will be presented here.
 * [Git-scm](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Draw.io](https://drawio-app.com/)
 
-<!-- CONTACT -->
-## Contact <small>[Top▲](MITM - ARP POISONING)</small>
+<a name="contact"></a>
+## Contact <small>[Top▲](MITM)</small>
 
 
 Amir - [here](https://github.com/amirg00/)
