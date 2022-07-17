@@ -24,7 +24,14 @@ The attack explanation is based on a story that will be presented here.
 
 <a name="background_story"></a>
 ## Background Story <small>[Top▲](#table_of_contents)</small>
-...
+Eve is falling in love with Bob, which is falling in love with Alice. 
+In one day, Bob decided to propose Alice but in a brilliant platform - [our wonderful chat application](https://github.com/amirg00/Simple-Chat.git).
+Since Eve and Bob are good friends, he told her his intentions to propose Alice,
+and in response, Eve decided to use her malicious abilities and sabotage Bob's proposal.
+Eve will break the chat between Bob and Alice, such that each message in the chat 
+will be transferred to her, wil be changed by her and delivered to Alice after the changes.
+Finally, Eve will join Bob's chat and will use Bob's heartbreaking to propose Bob 😊.
+
 
 <a name="languages_and_tools"></a>
 ## Languages and Tools <small>[Top▲](#table_of_contents)</small>
