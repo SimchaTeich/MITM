@@ -1,7 +1,6 @@
-<a name="mitm_up"></a>
 # MITM - ARP POISONING
 
-<!-- TABLE OF CONTENTS -->
+<a name="table_of_contents"></a>
 <details open="open">
   <summary>Content</summary>
   <ol>
@@ -52,7 +51,7 @@ The attack explanation is based on a story that will be presented here.
 * [Draw.io](https://drawio-app.com/)
 
 <a name="contact"></a>
-## Contact <small>[Top▲](#brief)</small>
+## Contact <small>[Top▲](#table_of_contents)</small>
 
 
 Amir - [here](https://github.com/amirg00/)
