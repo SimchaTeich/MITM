@@ -6,6 +6,7 @@
   <ol>
     <li><a href="#brief">Brief</a></li>
     <li><a href="#background_story">Background Story</a></li>
+    <li><a href="#attack_progression">Attack Progression</a></li>
     <li><a href="#languages_and_tools">Languages and Tools</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -32,6 +33,24 @@ Eve will break the chat between Bob and Alice, such that each message in the cha
 will be transferred to her, wil be changed by her and delivered to Alice after the changes.
 Finally, Eve will join Bob's chat and will use Bob's heartbreaking to propose Bob 😊.
 
+<a name="attack_progression"></a>
+## Attack Progression
+
+### Attack Enviroment
+The attack will be over 3 virtual machines of ubuntu20.04 of SEED Lab, 
+which have a common subnet.
+
+* The first machine holds the chat server and Bob.
+* The second machine resembles Alice's computer.
+* The third machine resembles Eve - the attacker's computer.
+
+Here is a picture which depicts the net's scheme, with the real details.
+
+========================= picture =============================
+
+It's needless to say who is Bob, because bob's messages will be sent to the server, 
+and only then from the server to Alice, but here we will have Bob and the server in
+the same virtual machine, as mentioned above.
 
 <a name="languages_and_tools"></a>
 ## Languages and Tools <small>[Top▲](#table_of_contents)</small>
