@@ -30,7 +30,7 @@ Since Eve and Bob are good friends, he told her his intentions to propose Alice,
 and in response, Eve decided to use her malicious abilities and sabotage Bob's proposal.
 Eve will break the chat between Bob and Alice, such that each message in the chat 
 will be transferred to her, wil be changed by her and delivered to Alice after the changes.
-Finally, Eve will join Bob's chat and will use Bob's heartbreaking to propose Bob 😊.
+Finally, Eve will join Bob's chat and will use Bob's heartbreaking to propose him 😊.
 
 
 <a name="languages_and_tools"></a>
