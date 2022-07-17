@@ -82,8 +82,6 @@ Here is a picture of the poisoning scheme.
 <img align="center" src="Resorces/pictures/4 - poisoning scheme.png" />
 </p>
 
-========================= picture =============================
-
 The next step for Eve is to run her script to poison Alice's and Bob's ARP cache.
 
 ========================= picture =============================
