@@ -101,7 +101,9 @@ This is important because the cache could be refreshed.
 
 We can check if the poisoning has fully succeeded, by seeing the arp table using arp -n command.
 
-========================= picture =============================
+<p align="center">
+<img align="center" src="Resorces/pictures/7 - Alice ARP cash - after poisoning.png" />
+</p>
 
 And in comparison to the last state, we can see that Alice's and Bob's arp address
 are altered to Eve's mac address, so the poison worked!
