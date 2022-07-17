@@ -131,7 +131,6 @@ And now we can surly say that the Bob's proposal is completely ruined.
 
  <div align="center">
  <code><img height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"></code>
- <code><img height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1024px-PyCharm_Icon.svg.png"/></code>
  <code><img height="40" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
  <code><img height="40" width="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
  <code><img height="40" width="40" src="https://media.trustradius.com/product-logos/dT/3e/JWKABGMWXUZ3.PNG"></code>
@@ -146,7 +145,6 @@ And now we can surly say that the Bob's proposal is completely ruined.
 * [Python](https://www.python.org/)
 * [Wirshark](https://he.wikipedia.org/wiki/Wireshark)
 * [Git](https://git-scm.com/)
-* [Pycharm](https://www.jetbrains.com/pycharm/)
 * [Git-scm](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Draw.io](https://drawio-app.com/)
 
