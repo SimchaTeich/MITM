@@ -34,9 +34,9 @@ will be transferred to her, wil be changed by her and delivered to Alice after t
 Finally, Eve will join Bob's chat and will use Bob's heartbreaking to propose him 😊.
 
 <a name="attack_progression"></a>
-## Attack Progression
+## Attack Progression <small>[Top▲](#table_of_contents)</small>
 
-### Attack Enviroment
+### Attack Enviroment 
 The attack will be over 3 virtual machines of ubuntu20.04 of SEED Lab, 
 which have a common subnet.
 
@@ -51,6 +51,63 @@ Here is a picture which depicts the net's scheme, with the real details.
 It's needless to say who is Bob, because bob's messages will be sent to the server, 
 and only then from the server to Alice, but here we will have Bob and the server in
 the same virtual machine, as mentioned above.
+
+### Attack 
+Let's present a normal chat over our chat application.
+
+- Bob joins the chat, and then Alice joins too.
+- Now they can chat.
+
+========================= picture =============================
+
+Now to the attacking, Eve will apply ARP poisoning.
+She will poison the ARP cache of Alice and the server (Bob's machine).
+
+========================= picture =============================
+
+- The blue address and the red address belongs to the attacker, which is only connected to the subnet.
+
+As mentioned, the attacker - Eve will send 2 Arp replies - one for Bob and one for Alice.
+This poisons Alice's and Bob's ARP cache.
+
+Here is a picture of the poisoning scheme.
+
+========================= picture =============================
+
+The next step for Eve is to run her script to poison Alice's and Bob's ARP cache.
+
+========================= picture =============================
+
+* The red square marks that this is Eve's computer.
+
+Let's see the poisoning in the background using Wireshark.
+
+========================= picture =============================
+
+- The poisoning is made every 10 seconds, and we can see this traffic in the last picture.
+This is important because the cache could be refreshed.
+
+We can check if the poisoning has fully succeeded, by seeing the arp table using arp -n command.
+
+========================= picture =============================
+
+And in comparison to the last state, we can see that Alice's and Bob's arp address
+are altered to Eve's mac address, so the poison worked!
+
+Proceeding to Eve's next step, Eve should take the incoming packets, change them 
+and sent it to Alice. This idea is depicted in the following scheme.
+
+========================= picture =============================
+
+The software will take this idea and implement it:
+
+1. The software prints the real content.
+2. The software will alter the real content and then sent it to Alice.
+
+And now we can surly say that the Bob's proposal is completely ruined.
+
+========================= picture =============================
+
 
 <a name="languages_and_tools"></a>
 ## Languages and Tools <small>[Top▲](#table_of_contents)</small>
