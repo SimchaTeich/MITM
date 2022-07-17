@@ -111,7 +111,9 @@ are altered to Eve's mac address, so the poison worked!
 Proceeding to Eve's next step, Eve should take the incoming packets, change them 
 and sent it to Alice. This idea is depicted in the following scheme.
 
-========================= picture =============================
+<p align="center">
+<img align="center" src="Resorces/pictures/8 - the status after attack scheme.png" />
+</p>
 
 The software will take this idea and implement it:
 
