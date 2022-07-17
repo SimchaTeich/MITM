@@ -68,7 +68,7 @@ Now to the attacking, Eve will apply ARP poisoning.
 She will poison the ARP cache of Alice and the server (Bob's machine).
 
 <p align="center">
-<img align="center" src="Resorces/pictures/3 - Alice ARP cash before the attack.jpg" />
+<img align="center" src="Resorces/pictures/3 - Alice ARP cash - before poisoning.png" />
 </p>
 
 - The blue address and the red address belongs to the attacker, which is only connected to the subnet.
