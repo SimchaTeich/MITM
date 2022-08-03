@@ -68,7 +68,7 @@ Now to the attacking, Eve will apply ARP poisoning.
 She will poison the ARP cache of Alice and the server (Bob's machine).
 
 <p align="center">
-<img align="center" src="Resorces/pictures/3 - Alice ARP cash before the attack.jpg" />
+<img align="center" src="Resorces/pictures/3 - Alice ARP cash - before poisoning.png" />
 </p>
 
 - The blue address and the red address belongs to the attacker, which is only connected to the subnet.
@@ -156,9 +156,9 @@ Amir - [here](https://github.com/amirg00/)
  
 Simcha - [here](https://github.com/SimchaTeich)
 
-Project Link: [here](https://github.com/amirg00/Simple-Chat.git)
+Project Link: [here](https://github.com/SimchaTeich/MITM.git)
 
-Project book: [here](/MITM/task/323104562_324942077.pdf)
+Project book: [here](/task/323104562_324942077.pdf)
 ___
 
 ***Copyright*** © _This Project last modified on July 17, 2022, by [Simcha](https://github.com/SimchaTeich) & [Amir](https://github.com/amirg00/)_.
