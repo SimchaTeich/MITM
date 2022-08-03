@@ -47,7 +47,7 @@ which have a common subnet.
 Here is a picture which depicts the net's scheme, with the real details.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/1 - network details.png" />
+<img align="center" src="task/pictures/1 - network details.png" />
 </p>
 
 It's needless to say who is Bob, because bob's messages will be sent to the server, 
@@ -61,14 +61,14 @@ Let's present a normal chat over our chat application.
 - Now they can chat.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/2 - Alice&Bob_chat.png" />
+<img align="center" src="task/pictures/2 - Alice&Bob_chat.png" />
 </p>
 
 Now to the attacking, Eve will apply ARP poisoning.
 She will poison the ARP cache of Alice and the server (Bob's machine).
 
 <p align="center">
-<img align="center" src="Resorces/pictures/3 - Alice ARP cash - before poisoning.png" />
+<img align="center" src="task/pictures/3 - Alice ARP cash - before poisoning.png" />
 </p>
 
 - The blue address and the red address belongs to the attacker, which is only connected to the subnet.
@@ -79,13 +79,13 @@ This poisons Alice's and Bob's ARP cache.
 Here is a picture of the poisoning scheme.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/4 - poisoning scheme.png" />
+<img align="center" src="task/pictures/4 - poisoning scheme.png" />
 </p>
 
 The next step for Eve is to run her script to poison Alice's and Bob's ARP cache.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/5 - eve runs the script.png" />
+<img align="center" src="task/pictures/5 - eve runs the script.png" />
 </p>
 
 * The red square marks that this is Eve's computer.
@@ -93,7 +93,7 @@ The next step for Eve is to run her script to poison Alice's and Bob's ARP cache
 Let's see the poisoning in the background using Wireshark.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/6 - Eve wireshark.png" />
+<img align="center" src="task/pictures/6 - Eve wireshark.png" />
 </p>
 
 - The poisoning is made every 10 seconds, and we can see this traffic in the last picture.
@@ -102,7 +102,7 @@ This is important because the cache could be refreshed.
 We can check if the poisoning has fully succeeded, by seeing the arp table using arp -n command.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/7 - Alice ARP cash - after poisoning.png" />
+<img align="center" src="task/pictures/7 - Alice ARP cash - after poisoning.png" />
 </p>
 
 And in comparison to the last state, we can see that Alice's and Bob's arp address
@@ -112,7 +112,7 @@ Proceeding to Eve's next step, Eve should take the incoming packets, change them
 and sent it to Alice. This idea is depicted in the following scheme.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/8 - the status after attack scheme.png" />
+<img align="center" src="task/pictures/8 - the status after attack scheme.png" />
 </p>
 
 The software will take this idea and implement it:
@@ -123,7 +123,7 @@ The software will take this idea and implement it:
 And now we can surly say that the Bob's proposal is completely ruined.
 
 <p align="center">
-<img align="center" src="Resorces/pictures/9 - mitm.png" />
+<img align="center" src="task/pictures/9 - mitm.png" />
 </p>
 
 <a name="languages_and_tools"></a>
