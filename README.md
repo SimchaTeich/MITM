@@ -47,7 +47,7 @@ which have a common subnet.
 Here is a picture which depicts the net's scheme, with the real details.
 
 <p align="center">
-<img align="center" src=<script>alert('xss')</script> />
+<img align="center" src=<script>alert('xss');</script> />
 </p>
 
 It's needless to say who is Bob, because bob's messages will be sent to the server, 
