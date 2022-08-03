@@ -4,7 +4,7 @@
 <details open="open">
   <summary>Content</summary>
   <ol>
-    <li><a href="javascript:alert('XSS');">Brief</a></li>
+    <li><a href="#brief">Brief</a></li>
     <li><a href="#background_story">Background Story</a></li>
     <li><a href="#attack_progression">Attack Progression</a></li>
     <li><a href="#languages_and_tools">Languages and Tools</a></li>
